@@ -1,5 +1,5 @@
 class ATM:
-    def _init_(self):
+    def __init__(self):
         self.balance = 0
 
     def check_balance(self):
@@ -31,7 +31,7 @@ class ATMPrint(ATM):
         return user_input
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     atm = ATMPrint()
 
     password_length = 4
